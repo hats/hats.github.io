@@ -1,0 +1,39 @@
+User-Agent: *
+Disallow: /page21762118.html
+Disallow: /menu
+Disallow: /page21762151.html
+Disallow: /page24329013.html
+Disallow: /page_not_found
+Disallow: /page28395917.html
+Disallow: /demo_data/5579216739921308
+Disallow: /page28396763.html
+Disallow: /demo_data/777236193723613
+Disallow: /page28397084.html
+Disallow: /demo_data/177236193723612
+Disallow: /page28397206.html
+Disallow: /demo_data/577206193723615
+Disallow: /page28397437.html
+Disallow: /demo_data/allaboutaccessories
+Disallow: /page28397517.html
+Disallow: /demo_data/classicfallcoatsaremagic
+Disallow: /page28398289.html
+Disallow: /demo_data/whatisyourstyle
+Disallow: /page33276266.html
+Disallow: /block_wizard
+Disallow: /page24462343.html
+Disallow: /thanks
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://markeaze.com/sitemap.xml
+Sitemap: https://markeaze.com/sitemap-feeds.xml
+Host: https://markeaze.com

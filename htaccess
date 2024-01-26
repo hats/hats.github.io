@@ -1,0 +1,283 @@
+ErrorDocument 403 /page24329013.html
+ErrorDocument 404 /page24329013.html
+
+DirectoryIndex page38551023.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://markeaze\.com/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.markeaze.com [NC]
+RewriteRule ^(.*)$ https://markeaze\.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^blog/how-to-create-promotional-emails-that-work$ page24082989.html [NC]
+RewriteRule ^blog/how-to-create-promotional-emails-that-work/$ page24082989.html [NC]
+
+RewriteRule ^be_the_first$ page38034265.html [NC]
+RewriteRule ^be_the_first/$ page38034265.html [NC]
+
+RewriteRule ^blog$ page23904616.html [NC]
+RewriteRule ^blog/$ page23904616.html [NC]
+
+RewriteRule ^blog/strategy$ page24298582.html [NC]
+RewriteRule ^blog/strategy/$ page24298582.html [NC]
+
+RewriteRule ^blog/4-ways-to-stand-out-your-promotional-emails$ page24262759.html [NC]
+RewriteRule ^blog/4-ways-to-stand-out-your-promotional-emails/$ page24262759.html [NC]
+
+RewriteRule ^pricing$ page38626166.html [NC]
+RewriteRule ^pricing/$ page38626166.html [NC]
+
+RewriteRule ^blog/conversion$ page24324609.html [NC]
+RewriteRule ^blog/conversion/$ page24324609.html [NC]
+
+RewriteRule ^contact-sales$ page38666879.html [NC]
+RewriteRule ^contact-sales/$ page38666879.html [NC]
+
+RewriteRule ^blog/how-to-segment-your-contact-list-to-gain-impactful-revenue$ page29511609.html [NC]
+RewriteRule ^blog/how-to-segment-your-contact-list-to-gain-impactful-revenue/$ page29511609.html [NC]
+
+RewriteRule ^blog/will-you-dare-to-implement-these-4-email-segmentation-strategies$ page29518368.html [NC]
+RewriteRule ^blog/will-you-dare-to-implement-these-4-email-segmentation-strategies/$ page29518368.html [NC]
+
+RewriteRule ^blog/automation$ page24324901.html [NC]
+RewriteRule ^blog/automation/$ page24324901.html [NC]
+
+RewriteRule ^blog/effectiveness$ page24325200.html [NC]
+RewriteRule ^blog/effectiveness/$ page24325200.html [NC]
+
+RewriteRule ^blog/not-looking-for-a-designer$ page29594821.html [NC]
+RewriteRule ^blog/not-looking-for-a-designer/$ page29594821.html [NC]
+
+RewriteRule ^blog/master-of-templates-the-guide$ page29843020.html [NC]
+RewriteRule ^blog/master-of-templates-the-guide/$ page29843020.html [NC]
+
+RewriteRule ^blog/reporting$ page24325206.html [NC]
+RewriteRule ^blog/reporting/$ page24325206.html [NC]
+
+RewriteRule ^free_email_design_editor$ page23904367.html [NC]
+RewriteRule ^free_email_design_editor/$ page23904367.html [NC]
+
+RewriteRule ^blog/email-communication-plan-in-a-nutshell$ page29882743.html [NC]
+RewriteRule ^blog/email-communication-plan-in-a-nutshell/$ page29882743.html [NC]
+
+RewriteRule ^blog/updates$ page24319926.html [NC]
+RewriteRule ^blog/updates/$ page24319926.html [NC]
+
+RewriteRule ^blog/how-do-you-fight-back-with-the-right-email-communication-plan$ page29890857.html [NC]
+RewriteRule ^blog/how-do-you-fight-back-with-the-right-email-communication-plan/$ page29890857.html [NC]
+
+RewriteRule ^join-slack$ page28526636.html [NC]
+RewriteRule ^join-slack/$ page28526636.html [NC]
+
+RewriteRule ^blog/retention$ page24325197.html [NC]
+RewriteRule ^blog/retention/$ page24325197.html [NC]
+
+RewriteRule ^get_a_demo$ page30007364.html [NC]
+RewriteRule ^get_a_demo/$ page30007364.html [NC]
+
+RewriteRule ^blog/great-launch-no-therapy$ page30012514.html [NC]
+RewriteRule ^blog/great-launch-no-therapy/$ page30012514.html [NC]
+
+RewriteRule ^blog/the-guide-to-planning-a-launch-sequence$ page30014945.html [NC]
+RewriteRule ^blog/the-guide-to-planning-a-launch-sequence/$ page30014945.html [NC]
+
+RewriteRule ^blog/succeed-in-creating-a-subscriber-list-in-4-key-strategies$ page30188066.html [NC]
+RewriteRule ^blog/succeed-in-creating-a-subscriber-list-in-4-key-strategies/$ page30188066.html [NC]
+
+RewriteRule ^menu$ page21762118.html [NC]
+RewriteRule ^menu/$ page21762118.html [NC]
+
+RewriteRule ^blog/a-simple-and-effective-strategy-for-collecting-email-subscriber-lists$ page30193680.html [NC]
+RewriteRule ^blog/a-simple-and-effective-strategy-for-collecting-email-subscriber-lists/$ page30193680.html [NC]
+
+RewriteRule ^page_not_found$ page24329013.html [NC]
+RewriteRule ^page_not_found/$ page24329013.html [NC]
+
+RewriteRule ^blog/the-guide-to-your-masters-in-sign-ups$ page30339454.html [NC]
+RewriteRule ^blog/the-guide-to-your-masters-in-sign-ups/$ page30339454.html [NC]
+
+RewriteRule ^blog/web-form-your-way-to-high-conversion$ page30345162.html [NC]
+RewriteRule ^blog/web-form-your-way-to-high-conversion/$ page30345162.html [NC]
+
+RewriteRule ^blog/four-pillars-of-email-texts$ page30595968.html [NC]
+RewriteRule ^blog/four-pillars-of-email-texts/$ page30595968.html [NC]
+
+RewriteRule ^blog/rates-up-how-to-write-better-email-texts$ page30631586.html [NC]
+RewriteRule ^blog/rates-up-how-to-write-better-email-texts/$ page30631586.html [NC]
+
+RewriteRule ^blog/4-core-steps-in-producing-quality-email-announcements-for-you-blog$ page30813185.html [NC]
+RewriteRule ^blog/4-core-steps-in-producing-quality-email-announcements-for-you-blog/$ page30813185.html [NC]
+
+RewriteRule ^blog/make-your-approaches-more-personalized$ page30944868.html [NC]
+RewriteRule ^blog/make-your-approaches-more-personalized/$ page30944868.html [NC]
+
+RewriteRule ^blog/improve-your-email-marketing-campaign-with-no-magic-6-practical-tips$ page31167333.html [NC]
+RewriteRule ^blog/improve-your-email-marketing-campaign-with-no-magic-6-practical-tips/$ page31167333.html [NC]
+
+RewriteRule ^blog/dont-call-the-doctor-email-health-explained$ page31353216.html [NC]
+RewriteRule ^blog/dont-call-the-doctor-email-health-explained/$ page31353216.html [NC]
+
+RewriteRule ^blog/can-ai-substitute-digital-content-in-email-marketing$ page31481930.html [NC]
+RewriteRule ^blog/can-ai-substitute-digital-content-in-email-marketing/$ page31481930.html [NC]
+
+RewriteRule ^blog/keep-it-simple-engage-and-understand-your-subscribers-simultaneously$ page31721843.html [NC]
+RewriteRule ^blog/keep-it-simple-engage-and-understand-your-subscribers-simultaneously/$ page31721843.html [NC]
+
+RewriteRule ^blog/engage-effectively-engage-impactfully$ page31779191.html [NC]
+RewriteRule ^blog/engage-effectively-engage-impactfully/$ page31779191.html [NC]
+
+RewriteRule ^blog/cycle-of-life-why-you-need-to-adopt-the-pdca-model-today$ page31904884.html [NC]
+RewriteRule ^blog/cycle-of-life-why-you-need-to-adopt-the-pdca-model-today/$ page31904884.html [NC]
+
+RewriteRule ^blog/im-only-human-how-to-create-new-ideas-when-youre-dry$ page31908045.html [NC]
+RewriteRule ^blog/im-only-human-how-to-create-new-ideas-when-youre-dry/$ page31908045.html [NC]
+
+RewriteRule ^blog/break-the-wheel-of-misfortune-with-unit-economics-in-your-online-business$ page31979962.html [NC]
+RewriteRule ^blog/break-the-wheel-of-misfortune-with-unit-economics-in-your-online-business/$ page31979962.html [NC]
+
+RewriteRule ^blog/email-marketing-reporting-or-how-to-make-your-metrics-transparent$ page31983971.html [NC]
+RewriteRule ^blog/email-marketing-reporting-or-how-to-make-your-metrics-transparent/$ page31983971.html [NC]
+
+RewriteRule ^blog/part-of-the-deal-what-can-marketing-platforms-offer-you$ page32176110.html [NC]
+RewriteRule ^blog/part-of-the-deal-what-can-marketing-platforms-offer-you/$ page32176110.html [NC]
+
+RewriteRule ^blog/are-you-sure-pros-and-cons-of-marketing-platforms$ page32177633.html [NC]
+RewriteRule ^blog/are-you-sure-pros-and-cons-of-marketing-platforms/$ page32177633.html [NC]
+
+RewriteRule ^blog/master-of-metrics-or-how-you-can-make-a-perfect-user-journey-map$ page32455072.html [NC]
+RewriteRule ^blog/master-of-metrics-or-how-you-can-make-a-perfect-user-journey-map/$ page32455072.html [NC]
+
+RewriteRule ^blog/html-emails-most-common-issues-and-how-to-avoid-them$ page32549272.html [NC]
+RewriteRule ^blog/html-emails-most-common-issues-and-how-to-avoid-them/$ page32549272.html [NC]
+
+RewriteRule ^blog/a-risk-assessment-matrix-for-you-to-mitigate-all-your-email-marketing-risks$ page32647453.html [NC]
+RewriteRule ^blog/a-risk-assessment-matrix-for-you-to-mitigate-all-your-email-marketing-risks/$ page32647453.html [NC]
+
+RewriteRule ^blog/how-to-react-to-immediate-email-marketing-changes$ page32647460.html [NC]
+RewriteRule ^blog/how-to-react-to-immediate-email-marketing-changes/$ page32647460.html [NC]
+
+RewriteRule ^blog/dont-leave-me-how-to-recover-abandoned-carts$ page32739448.html [NC]
+RewriteRule ^blog/dont-leave-me-how-to-recover-abandoned-carts/$ page32739448.html [NC]
+
+RewriteRule ^blog/missing-strangers-how-to-keep-store-visitors-from-leaving$ page32767743.html [NC]
+RewriteRule ^blog/missing-strangers-how-to-keep-store-visitors-from-leaving/$ page32767743.html [NC]
+
+RewriteRule ^blog/golden-measure-marketing-metrics-to-boost-your-project$ page32961442.html [NC]
+RewriteRule ^blog/golden-measure-marketing-metrics-to-boost-your-project/$ page32961442.html [NC]
+
+RewriteRule ^blog/your-first-steps-how-to-have-a-great-start-on-a-new-project$ page32961769.html [NC]
+RewriteRule ^blog/your-first-steps-how-to-have-a-great-start-on-a-new-project/$ page32961769.html [NC]
+
+RewriteRule ^blog/ab-testing-your-road-toward-understanding-consumer-preferences$ page32981135.html [NC]
+RewriteRule ^blog/ab-testing-your-road-toward-understanding-consumer-preferences/$ page32981135.html [NC]
+
+RewriteRule ^blog/what-are-the-working-online-fashion-stores-trigger-maps$ page32981171.html [NC]
+RewriteRule ^blog/what-are-the-working-online-fashion-stores-trigger-maps/$ page32981171.html [NC]
+
+RewriteRule ^blog/crm-as-a-core-part-of-your-business-strategy$ page33450957.html [NC]
+RewriteRule ^blog/crm-as-a-core-part-of-your-business-strategy/$ page33450957.html [NC]
+
+RewriteRule ^blog/data-security-inside-a-crm-and-how-should-you-have-it$ page33451803.html [NC]
+RewriteRule ^blog/data-security-inside-a-crm-and-how-should-you-have-it/$ page33451803.html [NC]
+
+RewriteRule ^blog/split-how-to-do-email-ab-tests-the-right-way$ page34499707.html [NC]
+RewriteRule ^blog/split-how-to-do-email-ab-tests-the-right-way/$ page34499707.html [NC]
+
+RewriteRule ^anatomy-of-an-effective-email-the-key-ingredients-for-success$ page41745525.html [NC]
+RewriteRule ^anatomy-of-an-effective-email-the-key-ingredients-for-success/$ page41745525.html [NC]
+
+RewriteRule ^blog/how-to-amaze-your-audience-with-hot-fashion-blog-posts-via-email$ page30817295.html [NC]
+RewriteRule ^blog/how-to-amaze-your-audience-with-hot-fashion-blog-posts-via-email/$ page30817295.html [NC]
+
+RewriteRule ^blog/how-to-personalize-and-win-the-loyalty-and-awareness-of-your-audience$ page30952226.html [NC]
+RewriteRule ^blog/how-to-personalize-and-win-the-loyalty-and-awareness-of-your-audience/$ page30952226.html [NC]
+
+RewriteRule ^blog/tame-the-beast-the-basics-of-html-emails$ page32557208.html [NC]
+RewriteRule ^blog/tame-the-beast-the-basics-of-html-emails/$ page32557208.html [NC]
+
+RewriteRule ^blog/change-the-way-your-email-looks-breaking-down-strategies-from-the-top-firms$ page31165153.html [NC]
+RewriteRule ^blog/change-the-way-your-email-looks-breaking-down-strategies-from-the-top-firms/$ page31165153.html [NC]
+
+RewriteRule ^blog/track-and-demonstrate-your-email-results-with-a-customer-journey-map$ page32461031.html [NC]
+RewriteRule ^blog/track-and-demonstrate-your-email-results-with-a-customer-journey-map/$ page32461031.html [NC]
+
+RewriteRule ^blog/dark-is-the-new-black-dark-mode-in-emails$ page31351978.html [NC]
+RewriteRule ^blog/dark-is-the-new-black-dark-mode-in-emails/$ page31351978.html [NC]
+
+RewriteRule ^demo_data/5579216739921308$ page28395917.html [NC]
+RewriteRule ^demo_data/5579216739921308/$ page28395917.html [NC]
+
+RewriteRule ^demo_data/777236193723613$ page28396763.html [NC]
+RewriteRule ^demo_data/777236193723613/$ page28396763.html [NC]
+
+RewriteRule ^demo_data/177236193723612$ page28397084.html [NC]
+RewriteRule ^demo_data/177236193723612/$ page28397084.html [NC]
+
+RewriteRule ^demo_data/577206193723615$ page28397206.html [NC]
+RewriteRule ^demo_data/577206193723615/$ page28397206.html [NC]
+
+RewriteRule ^demo_data/allaboutaccessories$ page28397437.html [NC]
+RewriteRule ^demo_data/allaboutaccessories/$ page28397437.html [NC]
+
+RewriteRule ^demo_data/classicfallcoatsaremagic$ page28397517.html [NC]
+RewriteRule ^demo_data/classicfallcoatsaremagic/$ page28397517.html [NC]
+
+RewriteRule ^demo_data/whatisyourstyle$ page28398289.html [NC]
+RewriteRule ^demo_data/whatisyourstyle/$ page28398289.html [NC]
+
+RewriteRule ^demo_data/557921673$ page29511426.html [NC]
+RewriteRule ^demo_data/557921673/$ page29511426.html [NC]
+
+RewriteRule ^block_wizard$ page33276266.html [NC]
+RewriteRule ^block_wizard/$ page33276266.html [NC]
+
+RewriteRule ^thanks$ page24462343.html [NC]
+RewriteRule ^thanks/$ page24462343.html [NC]
+
+RewriteRule ^method$ page32075548.html [NC]
+RewriteRule ^method/$ page32075548.html [NC]
+
+RewriteRule ^email-production-cost-calculator$ page43091992.html [NC]
+RewriteRule ^email-production-cost-calculator/$ page43091992.html [NC]
+
+RewriteRule ^method/d$ https://markeaze\.com/method [R=301,NC]
+
+RewriteRule ^5_quick_email_copywriting_tips_for_engaging_content$ https://markeaze\.com/blog/5_quick_email_copywriting_tips_for_engaging_content [R=301,NC]
+
+RewriteRule ^css/fonts-tildasans$ https://markeaze\.com/ [R=301,NC]
+
+RewriteRule ^success$ https://markeaze\.com/ [R=301,NC]
+
+RewriteRule ^-/empty/$ https://markeaze\.com/ [R=301,NC]
+
+RewriteRule ^blog/Automation$ https://markeaze\.com/blog/automation [R=301,NC]
+
+RewriteRule ^blog/Retention$ https://markeaze\.com/blog/retention [R=301,NC]
+
+RewriteRule ^blog/Effectiveness$ https://markeaze\.com/blog/effectiveness [R=301,NC]
+
+RewriteRule ^blog/Updates$ https://markeaze\.com/blog/updates [R=301,NC]
+
+RewriteRule ^blog/Conversion$ https://markeaze\.com/blog/conversion [R=301,NC]
+
+RewriteRule ^blog/Reporting$ https://markeaze\.com/blog/reporting [R=301,NC]
+
+RewriteRule ^blog/Strategy$ https://markeaze\.com/blog/strategy [R=301,NC]
+
+RewriteRule ^method/$ https://markeaze\.com/method [R=301,NC]
+
+RewriteRule ^method/l$ https://markeaze\.com/method [R=301,NC]
+
+RewriteRule ^markeazemethodarticle$ https://markeaze\.com/method [R=301,NC]
+
+RewriteRule ^blog/email_marketing_trends_to_watch_for_in_2022$ https://markeaze\.com/ [R=301,NC]
+
+RewriteRule ^blog/email_marketing_trends_to_watch_for_in_2022$ https://markeaze\.com/ [R=301,NC]
+
+
